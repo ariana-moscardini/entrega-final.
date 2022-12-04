@@ -1,0 +1,50 @@
+@use './variables';
+@use './global';
+
+// VERSION MOBILE
+
+// BODY
+.body-grid{
+    nav{
+        &__vd{
+            font-size: 22px;
+        }
+    }
+}
+// NAV
+// MAIN
+#main-index{
+    .gestoria{
+        text-align: center;
+    }
+    .container-capo{
+        display: none;
+    }
+    .container-main{
+        background-image: url(../img/capo\ opacidad.jpg);
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+        background-size: 100% 100%;
+        color: black;
+        margin-left : auto;
+        margin-right : auto;
+        justify-content: center;
+        align-items: center;
+        .contenedortext{
+            background-color: rgba(96, 211, 226, 0.459);
+            font-weight: 400; 
+            line-height: 20px;
+            text-align: center;
+            line-height: 26.63px;
+            .p1{
+                padding-top: 15%;
+            }
+            .p2{ 
+                padding-top: 15%;
+                font-weight:  bolder;
+            }
+        }
+    }
+
+}
+

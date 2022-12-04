@@ -1,0 +1,22 @@
+@import './global';
+
+.main-tramites{
+    #header-tramites{
+        padding: 20px;
+        margin-top: 25px;
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+    }
+    h2{
+        background-color: rgba(23, 178, 199, 0.445);
+        font-size: 24px;
+        text-align:center;
+        color: black;
+
+    }
+    section{
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+}
